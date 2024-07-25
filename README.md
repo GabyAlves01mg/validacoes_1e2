@@ -20,6 +20,7 @@
         <input type="text" id="cpf" name="cpf" maxlength="14">
         <button type="submit">VALIDAR</button>
     </form>
+    
    
     <p id="message"></p>
  
@@ -28,7 +29,7 @@
     <script src='cpf.js'></script>
 
 
-    -JS:
+    - JS:
     // VALIDAÇÃO DE CPF DIRETO NO JAVASCRIPT
  
 // Adicionando escutador ao formulário
@@ -91,7 +92,7 @@ function validarCPF(cpf){
     return true;
 }
 
-      -CSS:
+      - CSS:
       html, body{
     padding: 0;
     height: 100%;
@@ -128,9 +129,9 @@ button{
 }
 input#cpf{
 
--EXPLICAÇÃO JS:
+###EXPLICAÇÃO JS:
 
--VALIDAÇÃO DE EMAIL:
+- VALIDAÇÃO DE EMAIL:
     -Codígos
     -html:
     <html>
@@ -169,6 +170,9 @@ function checarEmail(){
      document.forms[0].email.value.indexOf('@') == -1||
       document.forms[0].email.value.indexOf('.') == -1 ){
         alert("porfavor, informe um e-mail valido");}else{
+
+        ###EXOLICAÇAÕ JS:
+        
            // alert("EMAIL INFORMADO COM SUCESSO")
         }
    
