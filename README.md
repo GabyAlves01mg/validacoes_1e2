@@ -3,22 +3,22 @@
 -VALIDAÇÃO DE CPF-
 -codígos
    - Html:
-      ![](img/cpfHTML.png)
+      ![validacoes](img/cpfHTML.png)
 
     - JS:
-    ![](img/JScpf.png)
+    !(img/JScpf.png)
     ![](img/CpFjs.png)
  
       - CSS:
-      ![](img/cpf.css.png)
-      ![](img/CSScpf.png)
+      ![validacoes](img/cpf.css.png)
+      ![validacoes](img/CSScpf.png)
 
 -VALIDAÇÃO DE EMAIL-
    -html:
-  ![](img/HTMLemail.png)
+  ![validacoes](img/HTMLemail.png)
 
   -JS:
- ![](img/jsEMAIL..png)
+ ![validacoes](img/jsEMAIL..png)
 
 
     
