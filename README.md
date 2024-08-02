@@ -27,27 +27,27 @@ Neste projeto, implementamos validações para CPF e e-mail usando JavaScript. C
 
 A validação de CPF garante que o número fornecido é válido de acordo com o algoritmo específico para verificação dos dígitos verificadores. O processo inclui os seguintes passos:
 
-1. **Limpeza do CPF**: Remove quaisquer caracteres não numéricos, garantindo que o CPF seja processado apenas com os dígitos.
+ **Limpeza do CPF**: Remove quaisquer caracteres não numéricos, garantindo que o CPF seja processado apenas com os dígitos.
 
-2. **Verificação do Comprimento**: Confirma se o CPF possui exatamente 11 dígitos.
+ **Verificação do Comprimento**: Confirma se o CPF possui exatamente 11 dígitos.
 
-3. **Cálculo dos Dígitos Verificadores**:
+ **Cálculo dos Dígitos Verificadores**:
 * O primeiro dígito verificador é calculado com base nos 9 primeiros dígitos do CPF.
 * O segundo dígito verificador é calculado com base nos 10 primeiros dígitos do CPF, incluindo o primeiro dígito verificador.
 
-4. **Validação**: Compara os dígitos verificadores calculados com os fornecidos no CPF. Se eles corresponderem, o CPF é considerado válido.
+ **Validação**: Compara os dígitos verificadores calculados com os fornecidos no CPF. Se eles corresponderem, o CPF é considerado válido.
 
 ### Validação de E-mail ###
 
-A validação de e-mail verifica se o endereço de e-mail fornecido está no formato básico correto. O processo inclui os seguintes passos:
+A validação de e-mail verifica se o endereço de e-mail fornecido está correto.
 
-1. ### Verificação de Caracteres Essenciais ###
+ ### Verificação de Caracteres Essenciais ###
    * O e-mail deve conter o caractere "@".
    * O e-mail deve terminar com ".com".
 
-2. ### Mensagens de Feedback ### :
-   - Se o e-mail não contiver o caractere "@" ou não terminar com ".com", será exibida uma mensagem informando que o e-mail é inválido.
-   - Se o e-mail estiver no formato correto, será exibida uma mensagem confirmando que o e-mail é válido.
+### Mensagens de Feedback ### :
+   * Se o e-mail não contiver o caractere "@" ou não terminar com ".com", será exibida uma mensagem informando que o e-mail é inválido.
+   * Se o e-mail estiver no formato correto, será exibida uma mensagem confirmando que o e-mail é válido.
 
 ### Conclusão ###
 
